@@ -18,9 +18,11 @@ elements | Same options as in the *input option values* of a [MODX template vari
 default | Default value for the input. This value could contain calculated parts. There are two placeholders available: `{i}` contains an autoincremented index `{alias}` contains the alias of the edited document. | -
 thumbof | Name of an image input. A thumbnail of the selected image will be rendered into this area | -
 width | Width of the input | 100
+theme | Select the TinyMCE theme[^3] when type is `richtext` | -
 
 [^1]: Supported MODX input types: text, rawtext, email, number, textareamini, textarea, rawtextarea, htmlarea, date, dropdown, listbox, listbox-multiple, checkbox, option, image, file
 [^2]: See [images config](https://github.com/Jako/multiTV/blob/master/assets/tvs/multitv/configs/images.config.inc.php) for thumb
+[^3]: Themes in TinyMCE4: advanced, creative, custom, editor, full, inline, introtext, legacy, logic, mini, simple, webuser
 
 In datatable mode a layer will be displayed during adding/editing one row. In this editing layer the MODX input type richtext is possible.
 

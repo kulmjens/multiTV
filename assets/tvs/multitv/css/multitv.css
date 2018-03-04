@@ -60,8 +60,8 @@
 
 .multitv .list li.element .DatePicker { padding: 3px 3px 3px 24px }
 
-.multitv .list li.element .mtvThumb { float: right; margin-right: 12px; width: 96px }
-.multitv .list li.element .mtvThumb img { width: auto; height: 96px; float: right }
+.multitv .list li.element .mtvThumb { float: right; margin-right: 12px; }
+.multitv .list li.element .mtvThumb img { width: auto; max-height: 96px; min-height:50px; float: right }
 .multitv .list li.element .thumb { border: 1px solid #ccc !important }
 
 .multitv .list li.element .mtvThumb.inline { float: left; margin-right: 5px; width: 26px }
